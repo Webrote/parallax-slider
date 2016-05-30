@@ -15,7 +15,7 @@
 
 
 HTML-разметка:
-```
+```html
 <div id="prlx-slider-1" class="prlx-slider">
 	<ul>
 		<li data-url="img/1.jpg" class="hide">
@@ -45,7 +45,7 @@ HTML-разметка:
 
 
 И запускаем сам слайдер:
-```
+```javascript
 <script>
 	$(document).ready(function () {
 		$('#prlx-slider-1').prlxSlider({
