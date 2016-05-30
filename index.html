@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/prlxslider.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://code.jquery.com/jquery-1.8.3.min.js" integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8=" crossorigin="anonymous"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/smScroll.js"></script>
+	<script type="text/javascript" src="js/prlxslider.js"></script>
+	
+</head>
+<body>
+	<div id="wrapper">
+		<div id="content">
+			<div id="block1">
+				<div class="container">
+					<h1>БЛОК 1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+			<div id="prlx-slider-1" class="prlx-slider">
+				<ul>
+					<li data-url="img/0.jpg" class="hide">
+						<div class="prlx-slider-caption">
+							<div>
+								<strong>Maiores, nam repellendus</strong><br>
+								<small>beatae suscipit <br>
+								laudantium rerum optio</small>
+							</div>
+						</div>
+					</li>
+					<li data-url="img/1.jpg" class="hide">
+						<div class="prlx-slider-caption">
+							<div style="color:#fff;">
+								Lorem ipsum<br>
+								<small>quasi beatae suscipit</small>
+							</div>
+						</div>
+					</li>
+					<li data-url="img/2.jpg" class="hide">
+						<div class="prlx-slider-caption">
+							<div>
+								<strong>Maiores, nam repellendus</strong><br>
+								<small>beatae suscipit <br>
+								laudantium rerum optio</small>
+							</div>
+						</div>
+					</li>
+					<li data-url="img/4.jpg" class="hide">
+						<div class="prlx-slider-caption">
+							<div style="color:#fff;">
+								Similique, praesentium<br>
+								<small>& efficient repair</small>
+							</div>
+						</div>
+					</li>
+					<li data-url="img/5.jpg" class="hide">
+						<div class="prlx-slider-caption">
+							<div>
+								<strong>Maiores, nam repellendus</strong><br>
+								<small>beatae suscipit <br>
+								laudantium rerum optio</small>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="block3">
+				<div class="container">
+					<h2>БЛОК 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+
+			<div id="block4">
+				<div class="container">
+					<h2>БЛОК 4</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+			<div id="block5">
+				<div class="container">
+					<h2>БЛОК 5</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+			<div id="block3">
+				<div class="container">
+					<h2>БЛОК 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+
+			<div id="block4">
+				<div class="container">
+					<h2>БЛОК 4</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+			<div id="block5">
+				<div class="container">
+					<h2>БЛОК 5</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nam repellendus debitis, labore aut quasi beatae suscipit, neque iste obcaecati aliquam laudantium rerum optio esse enim, accusamus. Similique, praesentium, quaerat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function () {
+			$('#prlx-slider-1').prlxSlider({
+				autoplay: true,
+				autoplayTime: 3000,
+				animationTime: 800,
+				arrows: true,
+				pagination: true,
+			});
+			$.smScroll({
+		    	step:150,
+		    	speed:800,
+		    });
+		});
+	</script>
+</body>
+</html>

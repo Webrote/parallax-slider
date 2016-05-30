@@ -1,0 +1,126 @@
+/**
+ * slider's images containers
+ */
+.prlx-slider {
+	position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.prlx-slider ul li.hide {display: none;}
+.prlx-slider #prlx-images-wrapper {
+  margin-top: -10%;
+  position: relative;
+  width: 100%;
+  height: 118%;
+  top: 0;
+  z-index: 1;
+}
+.prlx-slider #prlx-images-wrapper .prlx-image-holder {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+  left: 0;
+	z-index: 1;
+	opacity: 0;
+}
+.prlx-slider #prlx-images-wrapper .prlx-image-holder.animation {
+  opacity: 1;
+}
+.prlx-slider .prlx-image-holder img{
+	position: absolute;
+}
+/**
+ * slider controls
+ */
+.prlx-slider .prev,
+.prlx-slider .next{
+  position: absolute;
+  height: 80px;
+  line-height: 55px;
+  width: 50px;
+  font-size: 100px;
+  text-align: center;
+  color: #777;
+  top: 50%;
+  left: 0;
+  z-index: 4;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .7;
+  transition: all 150ms;
+}
+.prlx-slider .next{
+  left: auto;
+  right: 0;
+}
+.prlx-slider .prev:hover,
+.prlx-slider .next:hover{
+  opacity: 1;
+}
+.prlx-slider .slider-pagers{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  text-align: center;
+  z-index: 4;
+}
+.prlx-slider .slider-pagers li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  background: #ccc;
+  opacity: .5;
+  text-indent: -9999px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 150ms;
+}
+.prlx-slider .slider-pagers li:hover,
+.prlx-slider .slider-pagers li.active{
+  opacity: 1;
+}
+
+/* ---- Caption ------ */
+.prlx-slider #prlx-captions-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.prlx-slider #prlx-captions-wrapper .container {
+  position: relative;
+  top: 25%;
+}
+.prlx-slider #prlx-captions-wrapper .container .prlx-caption-holder {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+.prlx-slider #prlx-captions-wrapper .container .prlx-caption-holder.animation {
+  opacity: 1;
+}
+.prlx-slider #prlx-captions-wrapper .container .prlx-slider-caption {
+  text-align: right;
+  color: #fff;
+  font: 52px/62px 'Arial', sans-serif;
+  text-transform: uppercase;
+}
+.prlx-slider #prlx-captions-wrapper .container .prlx-slider-caption strong {
+  font-weight: normal;
+    color: #54a506;
+}
+.prlx-slider #prlx-captions-wrapper .container .prlx-slider-caption h2 {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #000;
+}
