@@ -60,3 +60,8 @@ HTML-разметка:
 	});
 </script>
 ```
+
+###№ Демо:
+```
+http://parallax-slider.webrote.ru/
+```
