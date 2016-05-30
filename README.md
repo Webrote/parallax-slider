@@ -61,7 +61,7 @@ HTML-разметка:
 </script>
 ```
 
-###№ Демо:
+#### Демо:
 ```
 http://parallax-slider.webrote.ru/
 ```
