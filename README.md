@@ -3,9 +3,9 @@
 ## Использование.
 
 Подключаем стили:
-<pre>
+```
 <link rel="stylesheet" href="css/prlxslider.css">
-</pre>
+```
 
 Подключаем библиотеки:
 <pre>
