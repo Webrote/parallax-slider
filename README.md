@@ -63,5 +63,6 @@ HTML-разметка:
 
 #### Демо:
 ```
+<a href="http://parallax-slider.webrote.ru/">Demo</a>
 http://parallax-slider.webrote.ru/
 ```
